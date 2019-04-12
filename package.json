@@ -1,0 +1,25 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "description": "Calculadora",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delvecchio94/angular7.git"
+  },
+  "keywords": [
+    "calculadora"
+  ],
+  "author": "Jose Del Vecchio <jose.delvecchio@amerikati.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/delvecchio94/angular7/issues"
+  },
+  "homepage": "https://github.com/delvecchio94/angular7#readme",
+  "dependencies": {
+    "webpack": "^4.30.0"
+  }
+}
