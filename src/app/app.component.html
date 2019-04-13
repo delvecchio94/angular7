@@ -3,4 +3,18 @@
 <br/>
 <br/>
 <input type="number" [(ngModel)]="n2"/>
-<h2>{{ n1 + n2 }}</h2>
+
+<br/>
+<br/>
+
+<div style="margin-right: 5px">
+    <button (click) = "sumar()" style="font-size: medium;font-style: bold;margin-right: 5px" >+</button>
+    <button (click) = "restar()" style="font-size: medium;font-style: bold;margin-right: 5px" >-</button>
+    <button (click) = "multiplicar()" style="font-size: medium;font-style: bold;margin-right: 5px" >x</button>
+    <button (click) = "dividir()" style="font-size: medium;font-style: bold;" >/</button>
+</div>
+
+<br/> 
+<br/>
+
+<h2>{{ n3 }}</h2>

@@ -7,7 +7,23 @@ import {Component} from "@angular/core"
 
 export class AppComponent{
 
-    n1 = ""
-    n2 = ""
-    
+    n1: number
+    n2: number
+    n3: number
+
+    sumar(){
+        this.n3 = this.n1 + this.n2
+    }
+
+    restar(){
+        this.n3 = this.n1 - this.n2
+    }
+
+    multiplicar(){
+        this.n3 = this.n1 * this.n2
+    }
+
+    dividir(){
+        this.n3 = this.n1 / this.n2
+    }
 }
